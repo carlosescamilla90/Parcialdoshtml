@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+}
+
+header .logo{
+    padding-left: 40px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section .logo{
+    padding-left: 40px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.dancing-script-nav {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+    word-spacing: 25px;
+  }
+  section nav{
+    display: flexbox;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 50px; 
+    margin-bottom: -50px;
+  }
+header nav{
+    display: flexbox;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 50px; 
+    margin-bottom: -50px;
+}
+header{
+    background-color: rgb(230, 230, 230);
+	
+}
+
+body{
+    background-color: rgb(230, 230, 230);
+}
+
+#principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    height: 45vh;
+    filter: grayscale(100%);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.50),
+        rgba(0,0,0,0.3)
+    ), url(/IMAGENES/istockphoto-2098359215-1024x1024.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 5px 0px rgba(20, 20, 20, 0.3);
+}
+
+.textoshopnow{
+    margin-left: 20px;
+    justify-content: left;
+    width:300px;
+    text-align: justify;
+    margin-top: -160px;
+}
+
+.shopnowb{
+    margin-left: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    background-color: rgba(0,0,0,0.3);
+}
+#fotos1 .carta{
+    display:inline;
+    background-size:cover;
+    padding:72px;
+    margin: 6px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: right;
+   }
+
+.carta:nth-child(1){
+    filter: grayscale(100%);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.50),
+        rgba(0,0,0,0.3)
+    ), url(/IMAGENES/marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+}
+.carta:nth-child(2){
+    
+    filter: grayscale(100%);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.50),
+        rgba(0,0,0,0.3)
+    ), url(/IMAGENES/Copia\ de\ marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+}
+
+.carta:nth-child(3){
+   
+    filter: grayscale(100%);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.50),
+        rgba(0,0,0,0.3)
+    ), url(/IMAGENES/thisisengineering-sbVu5zitZt0-unsplash.jpg);
+}
+
+#sales{
+    text-align: center;
+}
+
+.tucar{
+    display: flex;
+    justify-content: center;
+}
+
+#adtucar .car{
+    display:inline;
+    background-size:cover;
+    
+    margin: 6px;
+    margin-right: -1px;
+    margin-top: 15px;
+    background-color: white;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: center;
+}
+button{
+    font-size: 0.6em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: black;
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*#adtucar .imgcar{
+    display:inline;
+    background-size:cover;
+    padding: 70px;
+    
+}*/
+
+
+.imgcar{
+    display: block;
+    background-size: cover;
+    padding: 80px;
+    margin-top: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    margin-left: -20px;
+    margin-right: -20px;
+    box-shadow: 5px 5px 5px 0px rgba(20, 20, 20, 0.3);
+    filter: grayscale(100%);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.50),
+        rgba(0,0,0,0.3)
+    ), url(/IMAGENES/christopher-gower-m_HRfLhgABo-unsplash.jpg);
+
+}
+.imgcar1{
+    display: block;
+    background-size: cover;
+    padding: 80px;
+    margin-top: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    margin-left: -20px;
+    margin-right: -20px;
+    filter: grayscale(100%);
+    box-shadow: 5px 5px 5px 0px rgba(20, 20, 20, 0.3);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.50),
+        rgba(0,0,0,0.3)
+    ), url(/IMAGENES/luke-chesser-rCOWMC8qf8A-unsplash.jpg);
+
+}
+.imgcar2{
+    display: block;
+    background-size: cover;
+    padding: 80px;
+    margin-top: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    margin-left: -20px;
+    margin-right: -20px;
+    filter: grayscale(100%);
+    box-shadow: 5px 5px 5px 0px rgba(20, 20, 20, 0.3);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.50),
+        rgba(0,0,0,0.3)
+    ), url(/IMAGENES/annie-spratt-ezMwqvKHNEk-unsplash.jpg);
+
+}
+.imgcar3{
+    display: block;
+    background-size: cover;
+    padding: 80px;
+    margin-top: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    margin-left: -20px;
+    margin-right: -20px;
+    filter: grayscale(100%);
+    box-shadow: 5px 5px 5px 0px rgba(20, 20, 20, 0.3);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.50),
+        rgba(0,0,0,0.3)
+    ), url(/IMAGENES/krzysztof-hepner-7f7BQ9WaZF8-unsplash.jpg);
+
+}
+
+.afacad-flux-p {
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: 100px;
+    font-weight: 100px;
+    font-style:normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+  
+
+.afacad-flux-p2 {
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing:none;
+  font-weight: 1000;
+  font-style:bold;
+  font-variation-settings: "slnt" 0;
+}
+
+#sales{
+    box-shadow: 0px 5px 0px 0px rgba(20, 20, 20, 0.2);
+    padding-bottom: 5px;
+    box-sizing: border-box;
+}
